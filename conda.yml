@@ -1,0 +1,33 @@
+name: robot
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  # Python Core
+  - python=3.9
+  - pip
+
+  # PyTorch & CUDA 11.3 Stack (Critical for GPU acceleration)
+  - cudatoolkit=11.3
+  - pytorch=1.12.0=py3.9_cuda11.3_cudnn8_0
+  - torchvision=0.13.0=py39_cu113
+
+  # Core Scientific Libraries (Conda versions are used if available)
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - matplotlib=3.9.4
+  - imageio=2.37.0
+  - scikit-image=0.24.0
+
+  # Packages installed via pip (Required for exact environment setup)
+  - pip:
+      - pykinect-azure==0.0.4
+      - pyrealsense2==2.56.5.9235
+      - opencv-python==4.12.0.88
+      - tensorboardx==2.6.4
+      - torchsummary==1.5.1
+      - attrs==25.4.0
+      - kiwisolver==1.4.7
+      - packaging==25.0
+      - pillow==11.1.0
