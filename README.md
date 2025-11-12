@@ -48,24 +48,9 @@ If you use this project in your research or wish to refer to the baseline result
 ## Installation
 - Checkout the robotic grasping package
 ```bash
-$ git clone https://github.com/skumra/robotic-grasping.git
+$ git clone https://github.com/hussen2003/robotic-grasping.git
 ```
 
-- Create a virtual environment
-```bash
-$ python3.6 -m venv --system-site-packages venv
-```
-
-- Source the virtual environment
-```bash
-$ source venv/bin/activate
-```
-
-- Install the requirements
-```bash
-$ cd robotic-grasping
-$ pip install -r requirements.txt
-```
 
 ## Datasets
 
