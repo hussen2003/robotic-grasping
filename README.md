@@ -1,8 +1,10 @@
 # Create the environment from conda.yml
-conda env create -f conda.yml
 
-# Activate the environment
+```
+bash
+conda env create -f conda.yml
 conda activate robot
+```
 
 # Antipodal Robotic Grasping
 We present a novel generative residual convolutional neural network based model architecture which detects objects in the camera’s field of view and predicts a suitable antipodal grasp configuration for the objects in the image.
