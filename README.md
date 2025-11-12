@@ -43,7 +43,7 @@ If you use this project in your research or wish to refer to the baseline result
 ```bash
 $ git clone https://github.com/hussen2003/robotic-grasping.git
 ```
-# Create the environment from conda.yml
+- Create the environment from conda.yml
 
 ```bash
 $ conda env create -f conda.yml
