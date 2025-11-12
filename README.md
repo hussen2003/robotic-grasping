@@ -1,9 +1,8 @@
 # Create the environment from conda.yml
 
-```
-bash
-conda env create -f conda.yml
-conda activate robot
+```bash
+$ conda env create -f conda.yml
+$ conda activate robot
 ```
 
 # Antipodal Robotic Grasping
